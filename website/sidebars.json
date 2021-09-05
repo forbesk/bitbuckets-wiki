@@ -1,20 +1,57 @@
 {
-  "design": [
-    "design/SOLIDWORKS-Installation"
-  ],
- "software": [
-    "software/Software-Getting-Started",
-    {
-        "Guides": [
-            "software/Deploying-Code",
-            "software/Limelight-Tuning"
-        ]
-    }
-],
- "fabrication": [
-    "fabrication/fab-placeholder"
-],
- "electrical": [
-    "electrical/electric-placeholder"
-]
+	"design": [
+		"design/design-overview",
+		{
+			"CAD": [
+				"design/SOLIDWORKS-Installation",
+				"design/cad-overview",
+				"design/cad-basics",
+				"design/cad-advanced",
+				"design/cad-grabcad"
+			],
+			"Drivetrains": [
+				"design/drivetrain-overview",
+				"design/drivetrain-skid-steer",
+				"design/drivetrain-holonomic",
+				"design/drivetrain-swerve"
+			],
+			"Mechanisms": [
+				"design/mechanism-overview",
+				"design/mechanism-arms",
+				"design/mechanism-rollers",
+				"design/mechanism-elevators"
+			]
+		}
+	],
+	"software": [
+		"software/Software-Getting-Started",
+		{
+		  "Guides": [
+			"software/Deploying-Code",
+			"software/Limelight-Tuning"
+		  ]	
+		}
+	],
+	"fabrication": [
+		"fabrication/fab-placeholder"
+	],
+	"electrical": [
+		"electrical/electric-placeholder"
+	],
+	"team": [
+		"team/team-history",
+		"team/xerocraft"
+	],
+	"robots": [
+		"robots/frc2012",
+		"robots/frc2013",
+		"robots/frc2014",
+		"robots/frc2015",
+		"robots/frc2016",
+		"robots/frc2017",
+		"robots/frc2018",
+		"robots/frc2019",
+		"robots/frc2020",
+		"robots/frc2021"
+	]
 }

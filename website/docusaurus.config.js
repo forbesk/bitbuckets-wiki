@@ -52,6 +52,8 @@ module.exports = {
                 {to: 'software/Software-Getting-Started', label: 'Software', position: 'left'},
                 {to: 'fabrication/fab-placeholder', label: 'Fabrication', position: 'left'},
                 {to: 'electrical/electric-placeholder', label: 'Electrical', position: 'left'},
+                {to: 'team/team-history', label: 'Team', position: 'left'},
+                {to: 'robots/frc2020', label: 'Robots', position: 'left'},
             ],
           },
         footer: {
